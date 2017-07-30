@@ -11,14 +11,14 @@
     "accept" : "✅",
     "error" : "❌",
     "pin" : "📌",
-    "notification" : "🔔",
+    "notification" : "🔔"
   },
-  "switchs" : {},
+  "switches" : {"wrongCmd" : true},
   "help" : {"help" : ":information_source: Comandos de **System**", "helpNote" : "**Nota:** [argumento opcional] <argumento obligatorio> |lista de opciones|"},
   "constants" : {},
   "cmds" : {},
   "channels" : {},
   "guildID" : "",
   "roles" : {},
-  "msg" : {}
+  "msg" : {"cmds" : "Comandos:"}
 }
