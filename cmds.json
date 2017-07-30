@@ -1,0 +1,25 @@
+[
+  {"cmd" : "help", "category" : "general", "description" : "Ayuda" , "hide" : false, "enable" : true},
+  {"cmd" : "ping", "category" : "otros", "description" : "!Pong", "hide" : true, "enable" : true},
+  {"cmd" : "lie1", "category" : "LIE", "description" : "Control de la Sala de espera de LIE. Requiere rol **Admin**", "hide" : false, "enable" : true,
+    "s" : [
+      {"cmd" : "open", "category" : "LIE", "description" : "Abre la Sala de espera de LIE 1", "hide" : false, "enable" : true},
+      {"cmd" : "close", "category" : "LIE", "description" : "Cierra la Sala de espera de LIE 1", "hide" : false, "enable" : true}
+    ]
+  },
+  {"cmd" : "lie2", "category" : "LIE", "description" : "Control de la Sala de espera de LIE 2. Requiere rol **Admin**", "hide" : false, "enable" : true,
+    "s" : [
+      {"cmd" : "open", "category" : "LIE", "description" : "Abre la Sala de espera de LIE 2", "hide" : false, "enable" : true},
+      {"cmd" : "close", "category" : "LIE", "description" : "Cierra la Sala de espera de LIE 2", "hide" : false, "enable" : true}
+    ]},
+  {"cmd" : "lie", "category" : "FED", "description" : "Clasificación de la LIE" ,"msg" : "Clasificación de la LIE: http://lieserver-aethere.rhcloud.com/#/","hide" : false, "enable" : true},
+  {"cmd" : "discord", "category" : "FED", "description" : "Enlace al Discord de la FED" ,"msg" : "Invitación: https://discord.gg/K5krgBg", "hide" : false, "enable" : true},
+  {"cmd" : "web", "category" : "FED", "description" : "Enlace a la web de la FED" ,"msg" : "Web: http://www.fedota2.es", "hide" : false, "enable" : true},
+  {"cmd" : "twitch", "category" : "FED", "description" : "Enlace al Twitch de la FED" ,"msg" : "Twitch: https://www.twitch.tv/fedota2", "hide" : false, "enable" : true},
+  {"cmd" : "twitter", "category" : "FED", "description" : "Enlace al Twitter de la FED" ,"msg" : "Twitter: https://twitter.com/fedota2", "hide" : false, "enable" : true},
+  {"cmd" : "lolicop", "category" : "general", "description" : "Lolipop!" , "hide" : false, "enable" : true},
+  {"cmd" : "bot", "category" : "admin", "description" : "Control del bot. Requiere rol **Admin**" , "arguments" : "<id>", "hide" : true, "enable" : true,
+    "s" : [
+      {"cmd" : "playing", "category" : "admin", "description" : "Cambia el estado de \"Jugando a\"", "hide" : true, "enable" : true}
+      ]}
+]

@@ -1,0 +1,24 @@
+{
+  "bot" : {"name" : "System", "id" : "341187012272979970", "icon" : ""},
+  "server" : "",
+  "prefix" : "s!",
+  "version" : "0.01",
+  "update" : "30/07/2017",
+  "color" : "#2B9C6A",
+  "playing" : "system",
+  "invite" : "",
+  "emoji" : {
+    "accept" : "✅",
+    "error" : "❌",
+    "pin" : "📌",
+    "notification" : "🔔",
+  },
+  "switchs" : {},
+  "help" : {"help" : ":information_source: Comandos de **System**", "helpNote" : "**Nota:** [argumento opcional] <argumento obligatorio> |lista de opciones|"},
+  "constants" : {},
+  "cmds" : {},
+  "channels" : {},
+  "guildID" : "",
+  "roles" : {},
+  "msg" : {}
+}
